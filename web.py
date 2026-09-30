@@ -36,7 +36,7 @@ try:
     else:
         filtered_df = df
 
-    st.write(f"✨ กำลังแสดงผลดาวเคราะห์ตัวอย่าง **{len(filtered_df)}** ดวง (โหมดประหยัดทรัพยากรเครื่อง)")
+    st.write(f"✨ กำลังแสดงผลดาวเคราะห์ตัวอย่าง **{len(filtered_df)}** ดวง")
 
     fig = px.scatter_3d(
         filtered_df,
